@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.form .button {
+  border: none;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #ffd500;
+  font-weight: bold;
+  cursor: pointer;
+}
+.form .input {
+  border-radius: 0.5rem;
+  border: none;
+  padding: 0.25rem 1rem;
+  font-weight: bold;
+}
+.grid {
+  display: grid;
+  padding: 0.5rem;
+  gap: 2px;
+  width: clamp(25rem, 35rem, 50rem);
+  height: clamp(25rem, 35rem, 50rem);
+  overflow: auto;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+}

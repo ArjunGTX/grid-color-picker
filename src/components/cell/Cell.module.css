@@ -1,0 +1,11 @@
+.cell {
+  color: #000000;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.cell.highlight {
+  outline: 2px solid #000000;
+}
